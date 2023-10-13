@@ -8,8 +8,7 @@ export default defineConfig({
 			title: 'beth',
 			social: {
 				github: 'https://github.com/huitingloke',
-				linkedin: 'https://www.linkedin.com/in/bethloke/'
-			},
+				linkedin: 'https://www.linkedin.com/in/bethloke/'			},
 			customCss: [
 				'./src/style.css',
 				'./src/fonts/font-face.css' //for fonts also please
@@ -29,7 +28,8 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'introduction', link: '/projects/introduction/' },
-						{ label: 'automation', link: '/projects/automation/' }
+						{ label: 'automation', link: '/projects/automation/' },
+						{ label: 'music', link: '/projects/music/' }
 					], 
 				},
 				{
