@@ -1,5 +1,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import '@fontsource-variable/quicksand';
+
 
 // https://astro.build/config
 export default defineConfig({
@@ -10,8 +12,8 @@ export default defineConfig({
 				github: 'https://github.com/huitingloke',
 				linkedin: 'https://www.linkedin.com/in/bethloke/'			},
 			customCss: [
-				'./src/style.css',
-				'./src/fonts/font-face.css' //for fonts also please
+				"@fontsource/quicksand/400.css", //for fonts also please
+				
 			],
 			sidebar: [
 				{
