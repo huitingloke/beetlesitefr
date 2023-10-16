@@ -1,5 +1,6 @@
 /* Dark mode colors. */
 :root {
+
 	--sl-color-accent-low: #430924;
 	--sl-color-accent: #bf006b;
 	--sl-color-accent-high: #f9b0c9;
@@ -11,9 +12,11 @@
 	--sl-color-gray-5: #483037;
 	--sl-color-gray-6: #361f26;
 	--sl-color-black: #1f1518;
+	
 }
 /* Light mode colors. */
 :root[data-theme='light'] {
+
 	--sl-color-accent-low: #fdc5d7;
 	--sl-color-accent: #c2006d;
 	--sl-color-accent-high: #600033;

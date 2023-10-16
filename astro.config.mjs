@@ -10,10 +10,10 @@ export default defineConfig({
 			title: 'beth',
 			social: {
 				github: 'https://github.com/huitingloke',
-				linkedin: 'https://www.linkedin.com/in/bethloke/'			},
+				linkedin: 'https://www.linkedin.com/in/bethloke/'			
+			},
 			customCss: [
-				"@fontsource/quicksand/400.css", //for fonts also please
-				
+				'./src/fonts/font-face.css'
 			],
 			sidebar: [
 				{
@@ -21,8 +21,17 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'introduction', link: '/main/introduction/' },
-						{ label: 'skills', link: '/main/skills/' },
-						{ label: 'education', link: '/main/education/' }
+						{ label: 'gallery', link: '/main/gallery/' },
+						{ label: 'contact', link: '/main/contact/' },
+					],
+				},
+				{
+					label: 'professional',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'skills', link: '/professional/skills/' },
+						{ label: 'education', link: '/professional/education/' },
+						{ label: 'work', link: '/professional/work/' },
 					],
 				},
 				{
@@ -31,7 +40,8 @@ export default defineConfig({
 						// Each item here is one entry in the navigation menu.
 						{ label: 'introduction', link: '/projects/introduction/' },
 						{ label: 'automation', link: '/projects/automation/' },
-						{ label: 'music', link: '/projects/music/' }
+						{ label: 'music', link: '/projects/music/' },
+						{ label: 'visual art', link: '/projects/visual-art/' }
 					], 
 				},
 				{
@@ -39,6 +49,7 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'introduction', link: '/words/introduction/' },
+						{ label: 'short essays', link: '/words/short-essays/' },
 					],
 				}
 			],
