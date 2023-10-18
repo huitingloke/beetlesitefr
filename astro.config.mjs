@@ -27,15 +27,6 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'professional',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'skills', link: '/professional/skills/' },
-						{ label: 'education', link: '/professional/education/' },
-						{ label: 'work', link: '/professional/work/' },
-					],
-				},
-				{
 					label: 'showcase',
 					items: [
 						// Each item here is one entry in the navigation menu.
@@ -51,6 +42,25 @@ export default defineConfig({
 						// Each item here is one entry in the navigation menu.
 						{ label: 'introduction', link: '/projects/introduction/' }
 					], 
+				},
+				{
+					label: 'activities',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'climbing', link: '/activities/climbing/' },
+						{ label: 'skating', link: '/activities/skating/' },
+						{ label: 'cycling', link: '/activities/cycling/' },
+						{ label: 'rhythmic gymnastics', link: '/activities/rhythmicgymnastics/' },
+					], 
+				},
+				{
+					label: 'professional',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'skills', link: '/professional/skills/' },
+						{ label: 'education', link: '/professional/education/' },
+						{ label: 'work', link: '/professional/work/' },
+					],
 				}
 			],
 		}),
