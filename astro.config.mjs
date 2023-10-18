@@ -22,6 +22,7 @@ export default defineConfig({
 						// Each item here is one entry in the navigation menu.
 						{ label: 'introduction', link: '/main/introduction/' },
 						{ label: 'gallery', link: '/main/gallery/' },
+						{ label: 'faq', link: '/main/faq/' },
 						{ label: 'contact', link: '/main/contact/' },
 					],
 				},
@@ -35,22 +36,21 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'projects',
+					label: 'showcase',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'introduction', link: '/projects/introduction/' },
-						{ label: 'automation', link: '/projects/automation/' },
-						{ label: 'music', link: '/projects/music/' },
-						{ label: 'visual art', link: '/projects/visual-art/' }
+						{ label: 'introduction', link: '/showcase/introduction/' },
+						{ label: 'automation', link: '/showcase/automation/' },
+						{ label: 'music', link: '/showcase/music/' },
+						{ label: 'visual art', link: '/showcase/visual-art/' }
 					], 
 				},
 				{
-					label: 'words',
+					label: 'projects',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'introduction', link: '/words/introduction/' },
-						{ label: 'short essays', link: '/words/short-essays/' },
-					],
+						{ label: 'introduction', link: '/projects/introduction/' }
+					], 
 				}
 			],
 		}),
