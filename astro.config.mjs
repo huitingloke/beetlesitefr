@@ -33,7 +33,8 @@ export default defineConfig({
 						{ label: 'introduction', link: '/showcase/introduction/' },
 						{ label: 'automation', link: '/showcase/automation/' },
 						{ label: 'music', link: '/showcase/music/' },
-						{ label: 'visual art', link: '/showcase/visual-art/' }
+						{ label: 'visual art', link: '/showcase/visual-art/' },
+						{ label: 'words', link: '/showcase/words/' }
 					], 
 				},
 				{
@@ -50,6 +51,7 @@ export default defineConfig({
 						{ label: 'climbing', link: '/activities/climbing/' },
 						{ label: 'skating', link: '/activities/skating/' },
 						{ label: 'cycling', link: '/activities/cycling/' },
+						{ label: 'martial arts', link: '/activities/martialarts/' },
 						{ label: 'rhythmic gymnastics', link: '/activities/rhythmicgymnastics/' },
 					], 
 				},
